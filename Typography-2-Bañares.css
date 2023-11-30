@@ -1,0 +1,92 @@
+.container {
+    display: grid;
+    grid-template-rows:  130px 130px 130px 130px 130px;
+    grid-template-columns:  75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px 75px;
+    grid-column-gap: 10px;
+    grid-row-gap: -20px;
+
+} 
+.item-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 155px;
+    line-height: 1em;
+    letter-spacing: -9px;
+    margin-top: -9px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 8;
+}
+.item-2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 170px;
+    line-height: 1em;
+    letter-spacing: -9px;
+    margin-top: -14px;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 8;
+    grid-column-end: 10;
+}
+.item-3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 155px;
+    line-height: 1em;
+    letter-spacing: -9px;
+    margin-top: -9px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 14;
+}
+.item-4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 170px;
+    line-height: 1em;
+    letter-spacing: -9px;
+    margin-top: -14px;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 6;
+    grid-column-end: 14;
+}
+.item-5 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 25px;
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item-6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 25px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.item-7 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 6;
+    grid-column-end: 14;
+}
+
+body {
+   color: #ffadc6;
+    background-color:  #573c27;
+}
+
